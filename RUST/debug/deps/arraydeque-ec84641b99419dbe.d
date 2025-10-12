@@ -1,0 +1,10 @@
+C:\Users\vzadmin\Desktop\chitti_projects\LiveStreaming\project_with_bridge_and_scripts\target\debug\deps\arraydeque-ec84641b99419dbe.d: C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arraydeque-0.5.1\src\lib.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arraydeque-0.5.1\src\behavior.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arraydeque-0.5.1\src\error.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arraydeque-0.5.1\src\range.rs
+
+C:\Users\vzadmin\Desktop\chitti_projects\LiveStreaming\project_with_bridge_and_scripts\target\debug\deps\libarraydeque-ec84641b99419dbe.rlib: C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arraydeque-0.5.1\src\lib.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arraydeque-0.5.1\src\behavior.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arraydeque-0.5.1\src\error.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arraydeque-0.5.1\src\range.rs
+
+C:\Users\vzadmin\Desktop\chitti_projects\LiveStreaming\project_with_bridge_and_scripts\target\debug\deps\libarraydeque-ec84641b99419dbe.rmeta: C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arraydeque-0.5.1\src\lib.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arraydeque-0.5.1\src\behavior.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arraydeque-0.5.1\src\error.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arraydeque-0.5.1\src\range.rs
+
+C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arraydeque-0.5.1\src\lib.rs:
+C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arraydeque-0.5.1\src\behavior.rs:
+C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arraydeque-0.5.1\src\error.rs:
+C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arraydeque-0.5.1\src\range.rs:

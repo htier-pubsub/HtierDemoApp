@@ -1,0 +1,10 @@
+C:\Users\vzadmin\Desktop\chitti_projects\LiveStreaming\project_with_bridge_and_scripts\target\debug\deps\thiserror-588cf95d21541e1b.d: C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.12\src\lib.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.12\src\aserror.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.12\src\display.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.12\src\var.rs
+
+C:\Users\vzadmin\Desktop\chitti_projects\LiveStreaming\project_with_bridge_and_scripts\target\debug\deps\libthiserror-588cf95d21541e1b.rlib: C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.12\src\lib.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.12\src\aserror.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.12\src\display.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.12\src\var.rs
+
+C:\Users\vzadmin\Desktop\chitti_projects\LiveStreaming\project_with_bridge_and_scripts\target\debug\deps\libthiserror-588cf95d21541e1b.rmeta: C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.12\src\lib.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.12\src\aserror.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.12\src\display.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.12\src\var.rs
+
+C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.12\src\lib.rs:
+C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.12\src\aserror.rs:
+C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.12\src\display.rs:
+C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.12\src\var.rs:

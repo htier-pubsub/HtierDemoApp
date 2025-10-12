@@ -1,0 +1,11 @@
+C:\Users\vzadmin\Desktop\chitti_projects\LiveStreaming\project_with_bridge_and_scripts\target\debug\deps\json5-6a7b712dc5632608.d: C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src\lib.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src\de.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src\error.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src\ser.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src/json5.pest
+
+C:\Users\vzadmin\Desktop\chitti_projects\LiveStreaming\project_with_bridge_and_scripts\target\debug\deps\libjson5-6a7b712dc5632608.rlib: C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src\lib.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src\de.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src\error.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src\ser.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src/json5.pest
+
+C:\Users\vzadmin\Desktop\chitti_projects\LiveStreaming\project_with_bridge_and_scripts\target\debug\deps\libjson5-6a7b712dc5632608.rmeta: C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src\lib.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src\de.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src\error.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src\ser.rs C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src/json5.pest
+
+C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src\lib.rs:
+C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src\de.rs:
+C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src\error.rs:
+C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src\ser.rs:
+C:\Users\vzadmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\json5-0.4.1\src/json5.pest:
