@@ -8,8 +8,17 @@ import queue
 import os
 import pickle
 import requests
+from pyModbusTCP.server import ModbusServer
 from pyModbusTCP.client import ModbusClient
 from abc import ABC, abstractmethod
+import asyncio
+from random import uniform
+
+REG_ADDR = 600
+REG_NB = 22
+HOLDING_REG_ADDR = 1
+HOLDING_REG_NB = 1
+SLEEP_TIME = 5
 
 # Video streaming imports
 try:
@@ -540,13 +549,20 @@ class ModbusHandler(ProtocolHandler):
         self.client = None
         self.poll_interval = 2
         self.last_values = None
+   
     
     def connect(self, config):
+        self.client = ModbusServer("127.0.0.1", 12345, no_block=True)
         try:
-            self.client = ModbusClient(host=config['host'], port=config['port'])
-            self.poll_interval = config.get('poll_interval', 2)
-            
-            if self.client.open():
+            print("I am in ModbusServer before")           
+            #self.client = ModbusServer(config['host'], config['port'], no_block=True)
+            #self.client = ModbusClient(host=config['host'], port=config['port'], auto_open=True)
+            print("I am in ModbusServer after")
+            self.poll_interval = config.get('poll_interval', 2)         
+           
+            if self.client:
+                self.client.start()
+                print("I am in ModbusServer start")
                 self.running = True
                 self.thread = threading.Thread(target=self._polling_loop)
                 self.thread.daemon = True
@@ -570,17 +586,47 @@ class ModbusHandler(ProtocolHandler):
         while self.running:
             try:
                 if self.client:  # Check if client exists
+                    print("I am in _polling loop")
                     # Read holding registers (adjust address and count as needed)
-                    values = self.client.read_holding_registers(0, 10)  # Read 10 registers from address 0
+                     # Generate random values for all registers
+                    """
+                    regs_l = self.client.read_holding_registers(REG_ADDR, REG_NB)
+                    regs_float = []
+                    for i in range(0, len(regs_l), 2):
+                        mypack = struct.pack('>HH', regs_l[i + 1], regs_l[i])
+                        f = struct.unpack('>f', mypack)
+                        regs_float.append(f[0])
+                        
+                    print(regs_l)
+                    """
+                    random_values = [int(uniform(0, 100)) for _ in range(REG_NB)]
+
+                    # Set the last two registers to create a float value of 1.0
+                    random_values[REG_NB - 1] = 0x3F80  # Set the second last register to 0x3F80
+                    random_values[REG_NB - 2] = 0x0000  # Set the last register to 0x0000
+
+
+                    # Update the holding registers with the generated values
+                    self.client.data_bank.set_holding_registers(
+                        REG_ADDR, random_values
+                    )
+
+                    values = self.client.data_bank.get_holding_registers(
+                        REG_ADDR, REG_NB
+                    )  # Read all registers
+                    
+                    
+                    #values = self.client.read_holding_registers(0, 10)  # Read 10 registers from address 0
                     
                     if values and values != self.last_values:
                         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
+                        message_values = f"{values}"
                         
                         message_data = {
                             'protocol': 'Modbus',
                             'timestamp': timestamp,
                             'source': 'holding_registers',
-                            'data': values,
+                            'data': message_values,
                             'metadata': {'address': 0, 'count': 10}
                         }
                         
@@ -1029,7 +1075,7 @@ with col1:
         elif current_handler.name == "HTTP/Rust Server":
             st.write("**Protocol:** HTTP polling from Rust server")
             st.write("**Use Case:** Get Modbus data via bridge script")
-            st.write("**Data Flow:** Bridge script -> Rust server -> Streamlit app")
+            st.write("**Data Flow:** Bridge script -> Rust server -> Htier app")
             st.write("**Expected Format:** `[register_array]_timestamp`")
             st.success("💡 Use this to see your bridge script's rich register data!")
         elif current_handler.name == "Modbus":
